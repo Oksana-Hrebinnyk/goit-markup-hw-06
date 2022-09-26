@@ -848,6 +848,7 @@ li{
     position: absolute;
 }
 .icon-checked{
+    fill: var(--accent-cl);
     opacity: 0;
     transition: opacity 250ms var(--timing-function);
 }
@@ -867,6 +868,7 @@ li{
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 30px;
+    gap: 10px;
 }
 .conditions-descr {
     user-select: none;
