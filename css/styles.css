@@ -38,6 +38,18 @@ img{
 li{
     list-style-type: none;
 }
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .flex{
     display: flex;
     align-items: baseline;
@@ -831,6 +843,24 @@ li{
 .text-area:hover {
     border-color: var(--accent-cl);
 }
+.checkbox{
+    appearance: none;
+    position: absolute;
+}
+.icon-checked{
+    opacity: 0;
+    transition: opacity 250ms var(--timing-function);
+}
+.form-checkbox:checked + .icon-checkbox .icon-checked{
+    opacity: 1;
+}
+.icon-unchecked{
+    opacity: 1;
+    transition: opacity 250ms var(--timing-function);
+}
+.form-checkbox:checked + .icon-checkbox .icon-unchecked{
+    opacity: 0;
+}
 .conditions{
     display: flex;
     align-items: center;
@@ -846,7 +876,7 @@ li{
     text-decoration: none;
     color: var(--accent-cl);
 }
-.button-serv {
+.button-serv{
     display: block;
     margin-top: 30px;
     padding: 10px 32px;
