@@ -30,26 +30,26 @@
             <a href="./index.html" class="logo"><span class="logo-color">Web</span>Studio</a>
             <ul class="nav">
               <li>
-                <a href="./index.html" class="nav-list-item-studio current" class="link">Студія</a>
+                <a href="./index.html" class="nav-list-item-studio current link" >Студія</a>
               </li>
               <li>
-                <a href="./portfolio.html" class="nav-list-item" class="link">Портфоліо</a>
+                <a href="./portfolio.html" class="nav-list-item link">Портфоліо</a>
               </li>
               <li>
-                <a href="./contacts" class="nav-list-item" class="link">Контакти</a>
+                <a href="./contacts" class="nav-list-item link">Контакти</a>
               </li>
             </ul>
           </nav>
           <ul class="header-contacts">
             <li>
-             <a href="mailto:info@devstudio.com" class="mail" class="link">
+             <a href="mailto:info@devstudio.com" class="mail link">
               <svg class="icon-mail" width="16px" height="12px">
                 <use href="./img/icons.svg#mail"></use>
               </svg>
               info@devstudio.com</a>
             </li>
             <li>
-              <a href="tel:+380961111111" class="telephone" class="link">
+              <a href="tel:+380961111111" class="telephone link">
                 <svg class="icon-telephone" width="10px" height="16px">
                   <use href="./img/icons.svg#telephone"></use>
                 </svg>
@@ -132,7 +132,7 @@
             </li>
             <li>
               <div class="occupation-thumb">
-                <img src="./img/occupation/img2.png"alt="Telephone in a hand"width="370"height="294"/>
+                <img src="./img/occupation/img2.png" alt="Telephone in a hand" width="370" height="294"/>
                 <div class="overlay-occupation">
                   <p class="occupation-description">Мобільні додатки</p>
                 </div>
@@ -174,7 +174,6 @@
                     </svg>
                   </a>
                 </li>
-              </li>
               <li class="social-link-team li">
                 <a class="social-link-team" href="https://www.facebook.com/" target="_blank" rel="noopener noreferer" aria-label="Instagram">
                 <svg class="social-icon" width="20px" height="20px">
@@ -182,7 +181,7 @@
                 </svg>
               </a>
             </li>
-              <li class="social-link-team li" li>
+              <li class="social-link-team li">
                 <a class="social-link-team" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferer" aria-label="Instagram">
                 <svg class="social-icon" width="20px" height="20px">
                   <use href="./img/icons.svg#linkedin"></use>
@@ -212,7 +211,6 @@
                     </svg>
                   </a>
                 </li>
-              </li>
               <li class="social-link-team li">
                 <a class="social-link-team" href="https://www.facebook.com/" target="_blank" rel="noopener noreferer" aria-label="Instagram">
                 <svg class="social-icon" width="20px" height="20px">
@@ -250,7 +248,6 @@
                     </svg>
                   </a>
                 </li>
-              </li>
               <li class="social-link-team li">
                 <a class="social-link-team" href="https://www.facebook.com/" target="_blank" rel="noopener noreferer" aria-label="Instagram">
                 <svg class="social-icon" width="20px" height="20px">
@@ -258,7 +255,7 @@
                 </svg>
               </a>
             </li>
-              <li class="social-link-team" li>
+              <li class="social-link-team">
                 <a class="social-link-team" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferer" aria-label="Instagram">
                 <svg class="social-icon" width="20px" height="20px">
                   <use href="./img/icons.svg#linkedin"></use>
@@ -366,13 +363,13 @@
           <div class="footer-left">
             <a href="./index.html" class="logo-footer" class="link"><span class="logo-color">Web</span>Studio</a>
         <address>
-          <p class="adress-footer" class="link">м. Київ, пр-т Лесі Українки, 26</p>
+          <p class="adress-footer link">м. Київ, пр-т Лесі Українки, 26</p>
           <ul class="contacts-footer">
             <li class="mail-telephone-footer">
-              <a href="mailto:info@devstudio.com" class="mail-footer" class="link">info@devstudio.com</a>
+              <a href="mailto:info@devstudio.com" class="mail-footer link">info@devstudio.com</a>
             </li>
             <li class="mail-telephone-footer">
-              <a href="tel:+380961111111" class="telephone-footer" class="link">+38 096 111 11 11</a>
+              <a href="tel:+380961111111" class="telephone-footer link">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
@@ -413,7 +410,7 @@
           <form class="footer-form">
             <input type="text" class="footer-subscribe-input" placeholder="E-mail" required>
             <button class="button-send align">Підписатися
-              <svg class="social-item" width="18" height="18">
+              <svg width="18" height="18">
                 <use href="./img/icons.svg#footer-send"></use>
               </svg>
             </button>
@@ -424,36 +421,37 @@
         <!--Modal-window-->
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button class="modal-btn" type="submit" data-modal-close>
+            <button class="modal-btn" type="button" data-modal-close>
               <svg width="18px" height="18px">
                 <use href="./img/icons.svg#cross"></use>
               </svg>
             </button>  
               <form class="form">
                 <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
-                <label for="name" class="form-label">Ім'я</label>
+                <label class="form-label">Ім'я</label>
                 <div class="form-field">
                   <input type="text" class="form-input" required>
                   <svg class="form-svg" width="18" height="18">
                     <use href="./img/icons.svg#name-form"></use>
                   </svg>
                 </div>
-                <label for="telephone" class="form-label">Телефон</label>
+                <label class="form-label">Телефон</label>
                 <div class="form-field">
                   <input type="text" class="form-input">
                   <svg class="form-svg" width="18" height="18">
                     <use href="./img/icons.svg#phone-form"></use>
                   </svg>
                 </div>
-                <label for="mail" class="form-label">Пошта</label>
+                <label  class="form-label">Пошта</label>
                 <div class="form-field">
                   <input type="text" class="form-input">
                   <svg class="form-svg" width="18" height="18">
                     <use href="./img/icons.svg#mail-form"></use>
                   </svg>
                 </div>  
-                <label for="comment" class="form-label"></label>
-                <textarea name="comment" cols="72" rows="10" class="text-area" placeholder="Введіть текст"></textarea>
+                <label class="form-label">
+                  <textarea name="comment" cols="72" rows="10" class="text-area" placeholder="Введіть текст"></textarea>
+                </label>
                 <label class="conditions">
                   <input type="checkbox"  class="form-checkbox visually-hidden" required>
                   <svg class="icon-checkbox" width="16" height="15">

@@ -743,6 +743,7 @@ li{
     z-index: 1000;
     width: 528px;
     height: 581px;
+    padding: 40px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -758,13 +759,14 @@ li{
     height: 32px;
 
     top: 8px;
-    right: 0;
+    right: 8px;
     margin: 8px 8px 0 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50px;
     cursor: pointer;
 
     border-color: #FFFFFF;
+    background-color: transparent;
     transition: fill 250ms var(--timing-function);
 }
 .modal-btn:hover,
@@ -773,7 +775,7 @@ li{
 }
 .form{
     position: relative;
-    padding: 40px;
+
     border-radius: 4px;
 }
 .form-title{
@@ -852,14 +854,14 @@ li{
     opacity: 0;
     transition: opacity 250ms var(--timing-function);
 }
-.form-checkbox:checked + .icon-checkbox .icon-checked{
+.form-checkbox:checked + .icon-checkbox .icon-unchecked{
     opacity: 1;
 }
 .icon-unchecked{
     opacity: 1;
     transition: opacity 250ms var(--timing-function);
 }
-.form-checkbox:checked + .icon-checkbox .icon-unchecked{
+.form-checkbox:checked + .icon-checkbox .icon-checked{
     opacity: 0;
 }
 .conditions{
