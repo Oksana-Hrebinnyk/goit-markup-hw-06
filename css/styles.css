@@ -854,15 +854,16 @@ li{
     opacity: 0;
     transition: opacity 250ms var(--timing-function);
 }
-.form-checkbox:checked + .icon-checkbox .icon-unchecked{
+.form-checkbox:checked + .icon-checkbox .icon-checked{
     opacity: 1;
 }
 .icon-unchecked{
     opacity: 1;
     transition: opacity 250ms var(--timing-function);
 }
-.form-checkbox:checked + .icon-checkbox .icon-checked{
+.form-checkbox:checked + .icon-checkbox .icon-unchecked{
     opacity: 0;
+    transition: opacity 250ms var(--timing-function);
 }
 .conditions{
     display: flex;
