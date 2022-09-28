@@ -478,7 +478,6 @@ li{
 }
 .footer-centre{
     
-    margin-left: 70px;
     margin-right: auto;
 }
 .join{
@@ -760,12 +759,10 @@ li{
 
     top: 8px;
     right: 8px;
-    margin: 8px 8px 0 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50px;
+    border-radius: 50%;
     cursor: pointer;
 
-    border-color: #FFFFFF;
     background-color: transparent;
     transition: fill 250ms var(--timing-function);
 }
@@ -789,7 +786,6 @@ li{
 }
 .form-label{
     display: block;
-    margin-bottom: 4px;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
